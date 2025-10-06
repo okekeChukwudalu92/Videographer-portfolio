@@ -31,17 +31,17 @@ const Hero = () =>  {
             <div className="container">
             <div className="hero-left">
                 <h1 className={`hero-title ${showTitle ? 'fade-in' : ''}`}>
-                <span class="title-word title-word-1">Hello,</span>
-                    <span class="title-word title-word-2">I'm</span>
-                    <span class="title-word title-word-3">Njoku Queen </span>
-                    <span class="title-word title-word-4">Ujunwa</span>
+                <span className="title-word title-word-1">Hello,</span>
+                    <span className="title-word title-word-2">I'm</span>
+                    <span className="title-word title-word-3">Njoku Queen </span>
+                    <span className="title-word title-word-4">Ujunwa</span>
                 </h1>
                 <p className={`hero-subtitle ${showSubtitle ? 'slide-up' : ''}`}>
                 Cut. Create. Captivate.
                 </p>
-                <div class="hero-buttons">
-                    <a href="#work" class="btn btn-primary">View Work</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                <div className="hero-buttons">
+                    <a href="#work" className="btn btn-primary">View Work</a>
+                    <a href="#contact" className="btn btn-secondary">Contact Me</a>
                 </div>
             </div>
 
