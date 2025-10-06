@@ -1,8 +1,11 @@
-import React from 'react';
+import { useState } from 'react';
+import React  from 'react';
 import projects from '../data/project'; // Your project data
 import './Projects.css'; // Optional for styling
+import VideoModal from './VideoModal';
 
 const Projects = () => {
+    const[activeVideoId, setActiveVideoId] = useState(null)
   return (
     <section className="projects-section">
         <h2>Projects</h2>
@@ -14,13 +17,16 @@ const Projects = () => {
                     <p>{project.description}</p>
                     <p><strong>Tools:</strong> {project.tools}</p>
                     {project.link && (
-                        <a href={project.link} target='_blank' rel='noopener noreferrer'>
+                        <button onClick={() => setActiveVideoId(project.videoId)} className='veiw-btn'>
                             View Project
-                        </a>
+                        </button>
                     )}
                 </div>
             ))}
         </div>
+        <VideoModal
+        videoId={activeVideoId} 
+        OnClose={() => setActiveVideoId(null)}/>
     </section>
   );
 };
