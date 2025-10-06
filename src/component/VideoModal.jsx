@@ -16,7 +16,7 @@ const VideoModal = ({videoId, OnClose}) => {
              allowFullScreen
              ></iframe>
              <button className="close-btn"
-             onClick={onclose}>X</button>
+             onClick={onClose}>X</button>
         </div>
     </div>
   )
