@@ -10,8 +10,7 @@ const projects = [
       title: 'Adult Gist Podcast',
       description: 'Edited podcast episodes ensuring pacing and audio-visual sync.',
       tools: 'Premiere Pro',
-      videoId: '3QZsrk0mQz4',
-      image: 'https://youtu.be/3QZsrk0mQz4?si=Vae3jr6DUqdznjY7/hqdefault.jpg',
+      image: '/images/profile3.jp',
       link: 'https://youtu.be/3QZsrk0mQz4?si=Vae3jr6DUqdznjY7'
     },
     // Add more.
