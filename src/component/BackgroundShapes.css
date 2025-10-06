@@ -1,0 +1,126 @@
+        /* Background Elements */
+        .bg-elements {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .circle,
+        .square,
+        .triangle {
+            position: absolute;
+            opacity: 0.4;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        .circle {
+            border-radius: 50%;
+        }
+
+        .square {
+            border-radius: 5px;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid var(--primary-color);
+        }
+
+        .circle-1 {
+            width: 300px;
+            height: 300px;
+            background-color: var(--primary-color);
+            top: 10%;
+            left: 5%;
+            animation-name: float;
+        }
+
+        .circle-2 {
+            width: 200px;
+            height: 200px;
+            background-color: var(--accent-color);
+            bottom: 15%;
+            right: 10%;
+            animation-name: floatReverse;
+        }
+
+        .square-1 {
+            width: 250px;
+            height: 250px;
+            background-color: var(--secondary-color);
+            top: 30%;
+            right: 5%;
+            animation-name: rotate;
+        }
+
+        .square-2 {
+            width: 150px;
+            height: 150px;
+            background-color: var(--accent-color);
+            bottom: 20%;
+            left: 8%;
+            animation-name: rotateReverse;
+        }
+
+        .triangle-1 {
+            top: 60%;
+            left: 15%;
+            animation-name: float;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-50px) rotate(180deg);
+            }
+
+            100% {
+                transform: translateY(0) rotate(360deg);
+            }
+        }
+
+        @keyframes floatReverse {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(50px) rotate(-180deg);
+            }
+
+            100% {
+                transform: translateY(0) rotate(-360deg);
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotateReverse {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+

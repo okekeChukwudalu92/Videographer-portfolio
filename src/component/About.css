@@ -1,0 +1,45 @@
+
+.about-section {
+  padding: 4rem 2rem;
+  background-color: transparent;
+  color: #333;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-bio {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.about-tagline {
+  font-style: italic;
+  color: #ff7e5f;
+  margin: 2rem 0 1rem;
+  font-weight: bold;
+}
+
+.skills-section {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.skills-section h4 {
+  margin-bottom: 0.5rem;
+  color: #4a6fa5;
+}
+
+.skills-section ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.skills-section li {
+  margin-bottom: 0.5rem;
+}
