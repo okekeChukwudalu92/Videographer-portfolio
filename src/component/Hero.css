@@ -22,7 +22,7 @@
 
 .hero-title {
   font-size: 4rem;
-  color: #333;
+ 
   line-height: 1.1;
   overflow: hidden;
   margin-bottom: 1rem;
@@ -70,7 +70,7 @@
 .hero-subtitle {
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color: gray;
+ 
   opacity: 0;
   animation: slideUp 1s forwards 1s;
 }

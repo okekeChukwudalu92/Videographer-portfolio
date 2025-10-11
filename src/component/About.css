@@ -2,7 +2,7 @@
 .about-section {
   padding: 4rem 2rem;
   background-color: transparent;
-  color: #333;
+  
 }
 
 .about-content {
@@ -19,7 +19,7 @@
 
 .about-tagline {
   font-style: italic;
-  color: #ff7e5f;
+  
   margin: 2rem 0 1rem;
   font-weight: bold;
 }

@@ -4,7 +4,8 @@ import './Projects.css'; // Optional for styling
 
 const Projects = () => {
   return (
-    <section className="projects-section">
+    <section id='work
+    ' className="projects-section">
         <h2>Projects</h2>
         <div className="projects-grid">
             {projects.map((project, index) => (
